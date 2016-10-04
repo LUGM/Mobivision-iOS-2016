@@ -13,6 +13,7 @@
 		5944DC3F1DA287F10014513A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5944DC3E1DA287F10014513A /* Assets.xcassets */; };
 		5944DC421DA287F10014513A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5944DC401DA287F10014513A /* LaunchScreen.storyboard */; };
 		5944DC4A1DA29B0F0014513A /* Movies.dat in Resources */ = {isa = PBXBuildFile; fileRef = 5944DC491DA29B0F0014513A /* Movies.dat */; };
+		59D125081DA3DCFB00BF55E2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D125071DA3DCFB00BF55E2 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5944DC411DA287F10014513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5944DC431DA287F10014513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5944DC491DA29B0F0014513A /* Movies.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Movies.dat; sourceTree = "<group>"; };
+		59D125071DA3DCFB00BF55E2 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5944DC491DA29B0F0014513A /* Movies.dat */,
 				5944DC371DA287F00014513A /* AppDelegate.swift */,
 				5944DC391DA287F00014513A /* ViewController.swift */,
+				59D125071DA3DCFB00BF55E2 /* DetailsViewController.swift */,
 				5944DC3B1DA287F10014513A /* Main.storyboard */,
 				5944DC3E1DA287F10014513A /* Assets.xcassets */,
 				5944DC401DA287F10014513A /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				5944DC3A1DA287F00014513A /* ViewController.swift in Sources */,
 				5944DC381DA287F00014513A /* AppDelegate.swift in Sources */,
+				59D125081DA3DCFB00BF55E2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				5944DC481DA287F10014513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

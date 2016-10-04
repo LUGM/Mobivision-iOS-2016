@@ -122,6 +122,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 		return titles[section]
 	}
 	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		
+		if segue.identifier == "showDetailSegue" {
+			
+			if let indexPath = self.tableView.indexPath(for: (sender as! UITableViewCell)) {
+			
+				let title = self.tableView(tableView, titleForHeaderInSection: indexPath.section)
+				
+				let moviesForTitle = moovies[title!]
+				
+				let movieName = moviesForTitle![indexPath.row]
+				
+				let detailsVC = segue.destination as! DetailsViewController
+				
+				detailsVC.movieName = movieName
+				
+			}
+			
+		}
+		
+	}
 
 }
 
